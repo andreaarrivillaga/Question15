@@ -13,6 +13,7 @@ def load_data():
   url='https://drive.google.com/uc?id=' +"133D1c5gIVMSogmFb502Rmg34Uj_Q6pTg"
   st.write(f"trying new\n {url}")
   df=pd.read_csv(url)
+  st.write(df.head(2))
   return df
 
 df = load_data()
