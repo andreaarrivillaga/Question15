@@ -9,7 +9,8 @@ st.title("Final Exam, Question 15")
 # Load the dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("https://github.com/andreaarrivillaga/Question15/blob/main/athlete_events.csv.gz")
+    df = pd.read_csv("df = pd.read_csv("https://raw.githubusercontent.com/andreaarrivillaga/Question15/main/athlete_events.csv.gz")
+")
     return df
 
 df = load_data()
