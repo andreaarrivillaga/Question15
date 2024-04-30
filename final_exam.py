@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 
-DATA_URL = ('athlete_events.csv.gz')
+url = 'https://github.com/andreaarrivillaga/Question15/blob/main/athlete_events.csv.gz'
 st.title("Final Exam, Question 15")
 
-df=pd.read_csv(DATA_URL)
+df=pd.read_csv(url)
 
 st.title("Done")
